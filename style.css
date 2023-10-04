@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600&display=swap');
 
 *{
     margin: 0;
@@ -155,48 +156,6 @@ body{
     font-size: 15px;
 }
 
-/* Add this CSS code to your existing stylesheet */
-
-.designer-profiles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.designer-profile {
-    width: calc(33.33% - 20px); /* Adjust the width as needed */
-    margin-bottom: 40px;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.designer-profile:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-}
-
-.designer-profile img {
-    max-width: 100%;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
-
-.designer-profile h4 {
-    font-size: 18px;
-    color: #088178;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.designer-profile p {
-    font-size: 14px;
-    color: #333;
-}
-
 /* Featured Products */
 
 #product1{
@@ -283,6 +242,57 @@ body{
     bottom: 20px;
     right: 10px;
 }
+
+/* Designer Profile */
+
+.title{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+}
+
+.designer-profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.designer-profile {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.designer-profile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.designer-profile img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.designer-profile h4 {
+    font-size: 18px;
+    color: #088178;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.designer-profile p {
+    font-size: 14px;
+    color: #333;
+}
+
+
 
 #banner{
     display: flex;
