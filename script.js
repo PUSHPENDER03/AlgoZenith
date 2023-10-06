@@ -34,5 +34,4 @@ stars.forEach((star) => {
 
 feedbackTextarea.addEventListener('input', () => {
     const feedback = feedbackTextarea.value;
-    // You can save the feedback to a database or perform any other actions here.
 });
