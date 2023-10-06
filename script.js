@@ -9,7 +9,7 @@ if (bar) {
 }
 
 if (close){
-    bar.addEventListener('click',()=>{
+    close.addEventListener('click',()=>{
         nav.classList.remove('active');
     })
 }
