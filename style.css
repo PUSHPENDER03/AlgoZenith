@@ -520,6 +520,9 @@ footer .copyright{
         font-size: 24px;
         padding-left: 20px;
     }
+    #bar:hover{
+        color:#088178;
+    }
     #close{
         display: initial;
         position: absolute;
@@ -543,7 +546,8 @@ footer .copyright{
         margin: 15px 15px;
     }
     #product1 .pro_container{
-        justify-content: center;
+        justify-content: space-between;
+
     }
     #product .pro{
         margin: 15px;
